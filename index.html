@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Bank of Epicodus</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EpiCredit</h1>
+      <form id="bank">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <h3 class= "card-header"> Register a New Account</h3>
+              <div class="card-body">
+                <label for="userName">Name:</label>
+                <input type="text" name="userName">
+                <br>
+                <label for="initDeposit">Initial Deposit:</label>
+                <input type="text" name="initDeposit">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <h3 class= "card-header">Deposit or Withdraw Funds</h3>
+              <div class="card-body">
+                <label for="depositAmt">Deposit Amount</label>
+                <input type="text" name="depositAmt">
+                <br>
+                <label for="withdrawalAmt">Withdrawal Amount</label>
+                <input type="text" name="withdrawalAmt">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+          </div>
+            <div class="card">
+              <h3 class= "card-header">Current Balance</h3>
+              <div class="card-body">
+                <span id="balance"></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
